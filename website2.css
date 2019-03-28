@@ -1,0 +1,91 @@
+.left-part{
+	background-color:#4B4C4C;
+	width:15%;
+	float: left;
+	    font-family: cursive;
+    font-weight: 200;
+	font-size: smaller;
+	color: white;
+	height: 940px;
+}
+.right-part{
+	float:left;
+	background-color:gainsboro;
+	width:85%;
+	font-family: cursive;
+    font-weight: 200;
+	height: 940px;
+	font-size: initial;
+}
+.left-ordered-list{
+	width: 31%;
+    background-color: white;
+    font-size: 13px;
+    background-size: 40%;
+    padding-right: 0px;
+    padding-left: 45px;
+    margin-left: 58px;
+    height: 611px;
+}
+.right-ordered-list{
+	width: 31%;
+    background-color: white;
+    font-size: 13px;
+    background-size: 40%;
+    padding-left: 45px;
+    height: 611px;
+}
+button{
+	font-family: cursive;
+	color:#A7D129
+}
+.right-header{
+	text-align: center;
+	font-weight: 100;
+}
+.right-text{
+    padding-right: 11px;
+    padding-top: 11px;
+    padding-left: 27px;
+}
+.mankind{
+	display: flex;
+    width: 101%;
+    height: 555px;
+}
+.whitespacing{
+	width: 5%;
+}
+.topic{
+	margin: 28px;
+	line-height; 10px;
+}
+.second-paragraph{
+	margin: 5%;
+	line-height; 10px;
+	font-size: x-small;
+	}
+ ol {
+   list-style: none;
+   counter-reset: item;
+ }
+ li {
+   counter-increment: item;
+   margin-bottom: 5px;
+ }
+ li:before {
+   margin-right: 10px;
+   content: counter(item);
+   background: gainsboro;
+   border-radius: 100%;
+   color: white;
+   width: 30px;
+   text-align: center;
+   display: inline-block;
+   height: 30px;
+   padding: 3px;
+ }
+ .instagram{
+	 color: black;
+	 background-image:url("instagram.jpeg")
+ }
